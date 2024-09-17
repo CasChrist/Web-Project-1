@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Black Signature";
+  src: url("./fonts/BlackSignaturePersonalUseOnlyRegular.otf");
+}
+@font-face {
+  font-family: "Changa One";
+  src: url("./fonts/ChangaOne-Regular.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  max-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+
+  &.container120 {
+    max-width: 1200px;
+    padding: 0 120px;
+  }
+}
+
+.block-logo {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    font-family: "Black Signature";
+  }
+
+  span {
+    font-family: "Changa One";
+    font-size: 24px;
+    color: #8A53FF;
+  }
+}
+
+.navbar {
+  display: flex;
+  width: 358.78px;
+  align-items: center;
+
+  .block-items {
+    display: flex;
+    color: #495367;
+    gap: 14.13px;
+
+    hr {
+      /* border: 0.79px; */
+      color: #EEE;
+      /* width: 18.53px; */
+    }
+
+    ul {
+      display: flex;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      gap: 14.13px;
+      /* width: 281.84px; */
+      align-items: center;
+
+      li {
+        list-style-type: none;
+
+        a {
+          color: #8A53FF;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
