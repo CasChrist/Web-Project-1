@@ -1,47 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Talking Travel</title>
+  </head>
+  <body>
     <header class="header">
-        <div class="header-inside container120">
-            <div class="header-inside__logo">
-                <p>Talking</p>
-                <span>Travel</span>
-            </div>
-            <div class="header-inside__navbar">
-                <div class="header-inside__navbar-links">
-                    <ul>
-                        <li><a class="active" href="">Home</a></li>
-                        <li>Story</li>
-                        <li>Gallery</li>
-                        <li>Contact Us</li>
-                    </ul>
-                    <hr>
-                    <img src="./icons/Search.svg" alt="">
-                    <img src="./icons/Profile.svg" alt="">
-                </div>
-            </div>
+      <div class="header cropped">
+        <div class="header__logo">
+          <p>Talking</p>
+          <span>Travel</span>
         </div>
+        <div class="header__menu">
+          <div class="header__menu-links"></div>
+          <ul>
+            <li><a class="active" href="#">Home </a></li>
+            <li>Story</li>
+            <li>Gallery</li>
+            <li>Contact Us</li>
+          </ul>
+          <hr class="header__menu-separator" />
+          <div class="header__menu-icons">
+            <img src="./icons/Search.svg" alt="#" /><img
+              src="./icons/Profile.svg"
+              alt="#"
+            />
+          </div>
+        </div>
+      </div>
     </header>
-    <main>
-        <section class="hero">
-            <div class="hero__inside">
-                <div class="hero__inside-content">
-                    <div class="hero__inside-content__texts">
-                        <p class="hero title"><span id="highlight">Let's talk</span>about your next trip!</p>
-                        <p class="hero description">Share your favorite travel destination and we will feature it in our next blog!</p>
-                    </div>
-                    <div class="hero__inside-content__cta">
-
-                    </div>
-                </div>
+    <section class="hero">
+      <div class="hero full-screen">
+        <div class="hero__content">
+          <div class="hero__content-texts">
+            <h1>
+              <span>Let's talk</span>
+              <p>about your next trip!</p>
+            </h1>
+            <p>
+              Share with us your favourite destination and we will feature it in
+              our next blog!
+            </p>
+          </div>
+          <a class="hero__content-cta" href="#highlights">
+            <button class="primary">Share your story</button>
+            <div class="secondary">Watch highlights</div></a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="featured">
+      <div class="featured cropped">
+        <div class="featured__image"></div>
+        <div class="featured__blurb">
+          <div class="featured__blurb-texts">
+            <h3 class="section-subtitle">Featured destination</h3>
+            <h2 class="section-title">Our swiss adventure blog</h2>
+            <p class="section-description">
+              Visiting the swiss alps? Want to know the requirements on
+              travelling to Switzerland during the pandemic? Our blog might
+              help!
+            </p>
+          </div>
+          <div class="featured__blurb-cta">
+            <p class="secondary active">Watch Now</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="discover">
+      <div class="discover cropped">
+        <div class="discover__header">
+          <h3 class="section-subtitle">Join our adventures</h3>
+          <h2 class="section-title">Discover the world with us</h2>
+        </div>
+      </div>
+      <div class="discover__location">
+        <frame class="discover__location-cards"></frame>
+        <div class="discover__location-card">
+          <div class="discover__location-card-img"></div>
+          <div class="discover__location-card-texts">
+            <h3 class="place">Iceland</h3>
+            <h4 class="btn-discover">Discover</h4>
+          </div>
+        </div>
+        <div class="discover__location-card">
+          <div class="discover__location-card-img"></div>
+          <div class="discover__location-card-texts">
+            <h3 class="place">Italy</h3>
+            <h4 class="btn-discover">Discover</h4>
+          </div>
+        </div>
+        <frame class="discover__location-cards"></frame>
+        <div class="discover__location-card">
+          <div class="discover__location-card-img"></div>
+          <div class="discover__location-card-texts">
+            <h3 class="place">Dubai</h3>
+            <h4 class="btn-discover">Discover</h4>
+          </div>
+        </div>
+        <div class="discover__location-card">
+          <div class="discover__location-card-img"></div>
+          <div class="discover__location-card-texts">
+            <h3 class="place">Patagonia</h3>
+            <h4 class="btn-discover">Discover</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="share">
+      <div class="share full-screen">
+        <div class="share__form">
+          <div class="share__form-header">
+            <h3 class="section-subtitle">Let's build a community</h3>
+            <h2 class="section-title">Join our next destination</h2>
+          </div>
+          <div class="share__form-content">
+            <div class="share__form-content-texts">
+              <h3 class="place">Share your travels</h3>
+              <p class="section-description">
+                Suggest a new travel destination that you want to see and we
+                will feature it in our blog.
+              </p>
             </div>
-        </section>
-    </main>
-</body>
+            <form class="share__form-content-fields">
+              <div class="input">
+                <input
+                  type="text"
+                  name="dest-name"
+                  placeholder="Destination name"
+                  required
+                />
+              </div>
+              <div class="select">
+                <select>
+                  <option selected disabled required>
+                    Country of Destination
+                  </option>
+                </select>
+              </div>
+              <div class="input">
+                <input
+                  type="text"
+                  name="user-name"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+              <div class="select">
+                <select>
+                  <option selected disabled required>Shooting category</option>
+                </select>
+              </div>
+              <div class="input">
+                <textarea
+                  name="details"
+                  placeholder="Describe what kind of photos you want to focus on"
+                ></textarea>
+              </div>
+              <button class="primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="recent">
+      <div class="recent cropped">
+        <div class="recent__header">
+          <h3 class="section-subtitle">Catch up to our posts</h3>
+          <h2 class="section-title">Recent story entries</h2>
+        </div>
+        <div class="recent__stories">
+          <div class="recent__stories-left">
+            <div class="recent__stories-left-card"></div>
+            <div class="recent__stories-left-card-img">
+              <div class="recent__stories-left-card-body">
+                <div class="recent__stories-left-card-body-items">
+                  <div class="recent__stories-left-card-body-items-texts">
+                    <h3 class="place">Zermatt, Switzerland</h3>
+                    <p class="section-description">
+                      Marvel on the beauty of the iconic Matterhorn. Find the
+                      best places to stay that has the best views of this
+                      peak...
+                    </p>
+                  </div>
+                </div>
+                <div class="recent__stories-left-card-body-btn"></div>
+              </div>
+            </div>
+          </div>
+          <div class="recent-stories-right">
+            <ul class="recent-stories-right-column">
+              <li class="recent__stories-right-card">
+                <div class="recent__stories-right-card-img"></div>
+                <div class="recent__stories-right-card-texts">
+                  <h3 class="place">Tuscany, Italy</h3>
+                  <p class="section-description">
+                    The amazing Tuscany is home to famous Renaissance art and
+                    architecture and a vast scenic landscape.
+                    <span class="active">view full blog...</span>
+                  </p>
+                </div>
+              </li>
+              <li class="recent__stories-right-card">
+                <div class="recent__stories-right-card-img"></div>
+                <div class="recent__stories-right-card-texts">
+                  <h3 class="place">Kyoto, Japan</h3>
+                  <p class="section-description">
+                    Kyoto is well known for its temples, gardens, Shinto shrines
+                    and wooden houses. It’s time to visit Tokyo.
+                    <span class="active">view full blog...</span>
+                  </p>
+                </div>
+              </li>
+              <li class="recent__stories-right-card">
+                <div class="recent__stories-right-card-img"></div>
+                <div class="recent__stories-right-card-texts">
+                  <h3 class="place">Lofoten Islands, Norway</h3>
+                  <p class="section-description">
+                    Featuring razor-sharp peaks housing the arctic landscape.
+                    This astonishing island is perfect for your next
+                    postcard.<span class="active">view full blog...</span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer cropped">
+        <span class="footer__copyright">
+          © 2022, Talking Travel. All Rights Reserved.
+        </span>
+        <div class="footer__links">
+          <ul>
+            <li>Home</li>
+            <li>Blog</li>
+            <li>Gallery</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
