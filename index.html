@@ -1,32 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Talking Travel</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header class="header">
+    <header class="head">
       <div class="header cropped">
         <div class="header__logo">
-          <p>Talking</p>
-          <span>Travel</span>
+          <p>Talking</p><span class="active">Travel</span>
         </div>
-        <div class="header__menu">
-          <div class="header__menu-links"></div>
-          <ul>
-            <li><a class="active" href="#">Home </a></li>
-            <li>Story</li>
-            <li>Gallery</li>
-            <li>Contact Us</li>
-          </ul>
-          <hr class="header__menu-separator" />
-          <div class="header__menu-icons">
-            <img src="./icons/Search.svg" alt="#" /><img
-              src="./icons/Profile.svg"
-              alt="#"
-            />
-          </div>
+        <div class="header__menu"> 
+          <div class="header__menu-links"><a class="active" href="#">Home </a><a href="#">Story</a><a href="#">Gallery</a><a href="#">Contact Us</a></div>
+          <hr class="header__menu-separator">
+          <div class="header__menu-icons"><img src="./icons/Search.svg" alt="#"><img src="./icons/Profile.svg" alt="#"></div>
         </div>
       </div>
     </header>
@@ -34,19 +23,13 @@
       <div class="hero full-screen">
         <div class="hero__content">
           <div class="hero__content-texts">
-            <h1>
-              <span>Let's talk</span>
+            <h1><span>Let's talk</span>
               <p>about your next trip!</p>
             </h1>
-            <p>
-              Share with us your favourite destination and we will feature it in
-              our next blog!
-            </p>
-          </div>
-          <a class="hero__content-cta" href="#highlights">
+            <p>Share with us your favourite destination and we will feature it in our next blog!</p>
+          </div><a class="hero__content-cta" href="#highlights">
             <button class="primary">Share your story</button>
-            <div class="secondary">Watch highlights</div></a
-          >
+            <div class="secondary">Watch highlights</div></a>
         </div>
       </div>
     </section>
@@ -57,11 +40,7 @@
           <div class="featured__blurb-texts">
             <h3 class="section-subtitle">Featured destination</h3>
             <h2 class="section-title">Our swiss adventure blog</h2>
-            <p class="section-description">
-              Visiting the swiss alps? Want to know the requirements on
-              travelling to Switzerland during the pandemic? Our blog might
-              help!
-            </p>
+            <p class="section-description">Visiting the swiss alps? Want to know the requirements on travelling to Switzerland during the pandemic? Our blog might help!</p>
           </div>
           <div class="featured__blurb-cta">
             <p class="secondary active">Watch Now</p>
@@ -119,34 +98,19 @@
           <div class="share__form-content">
             <div class="share__form-content-texts">
               <h3 class="place">Share your travels</h3>
-              <p class="section-description">
-                Suggest a new travel destination that you want to see and we
-                will feature it in our blog.
-              </p>
+              <p class="section-description">Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
             </div>
             <form class="share__form-content-fields">
               <div class="input">
-                <input
-                  type="text"
-                  name="dest-name"
-                  placeholder="Destination name"
-                  required
-                />
+                <input type="text" name="dest-name" placeholder="Destination name" required>
               </div>
               <div class="select">
                 <select>
-                  <option selected disabled required>
-                    Country of Destination
-                  </option>
+                  <option selected disabled required>Country of Destination</option>
                 </select>
               </div>
               <div class="input">
-                <input
-                  type="text"
-                  name="user-name"
-                  placeholder="Your name"
-                  required
-                />
+                <input type="text" name="user-name" placeholder="Your name" required>
               </div>
               <div class="select">
                 <select>
@@ -154,10 +118,7 @@
                 </select>
               </div>
               <div class="input">
-                <textarea
-                  name="details"
-                  placeholder="Describe what kind of photos you want to focus on"
-                ></textarea>
+                <textarea name="details" placeholder="Describe what kind of photos you want to focus on"></textarea>
               </div>
               <button class="primary">Submit</button>
             </form>
@@ -179,11 +140,7 @@
                 <div class="recent__stories-left-card-body-items">
                   <div class="recent__stories-left-card-body-items-texts">
                     <h3 class="place">Zermatt, Switzerland</h3>
-                    <p class="section-description">
-                      Marvel on the beauty of the iconic Matterhorn. Find the
-                      best places to stay that has the best views of this
-                      peak...
-                    </p>
+                    <p class="section-description">Marvel on the beauty of the iconic Matterhorn. Find the best places to stay that has the best views of this peak...</p>
                   </div>
                 </div>
                 <div class="recent__stories-left-card-body-btn"></div>
@@ -196,33 +153,21 @@
                 <div class="recent__stories-right-card-img"></div>
                 <div class="recent__stories-right-card-texts">
                   <h3 class="place">Tuscany, Italy</h3>
-                  <p class="section-description">
-                    The amazing Tuscany is home to famous Renaissance art and
-                    architecture and a vast scenic landscape.
-                    <span class="active">view full blog...</span>
-                  </p>
+                  <p class="section-description">The amazing Tuscany is home to famous Renaissance art and architecture and a vast scenic landscape.<span class="active">view full blog...</span></p>
                 </div>
               </li>
               <li class="recent__stories-right-card">
                 <div class="recent__stories-right-card-img"></div>
                 <div class="recent__stories-right-card-texts">
                   <h3 class="place">Kyoto, Japan</h3>
-                  <p class="section-description">
-                    Kyoto is well known for its temples, gardens, Shinto shrines
-                    and wooden houses. It’s time to visit Tokyo.
-                    <span class="active">view full blog...</span>
-                  </p>
+                  <p class="section-description">Kyoto is well known for its temples, gardens, Shinto shrines and wooden houses. It’s time to visit Tokyo.<span class="active">view full blog...</span></p>
                 </div>
               </li>
               <li class="recent__stories-right-card">
                 <div class="recent__stories-right-card-img"></div>
                 <div class="recent__stories-right-card-texts">
                   <h3 class="place">Lofoten Islands, Norway</h3>
-                  <p class="section-description">
-                    Featuring razor-sharp peaks housing the arctic landscape.
-                    This astonishing island is perfect for your next
-                    postcard.<span class="active">view full blog...</span>
-                  </p>
+                  <p class="section-description">Featuring razor-sharp peaks housing the arctic landscape. This astonishing island is perfect for your next postcard.<span class="active">view full blog...</span></p>
                 </div>
               </li>
             </ul>
@@ -231,10 +176,7 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="footer cropped">
-        <span class="footer__copyright">
-          © 2022, Talking Travel. All Rights Reserved.
-        </span>
+      <div class="footer cropped"><span class="footer__copyright">© 2022, Talking Travel. All Rights Reserved.</span>
         <div class="footer__links">
           <ul>
             <li>Home</li>
