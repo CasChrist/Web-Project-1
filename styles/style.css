@@ -1,29 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @font-face {
   font-family: "Black Signature";
-  src: url("./fonts/BlackSignaturePersonalUseOnlyRegular.otf");
+  src: url("../fonts/BlackSignaturePersonalUseOnlyRegular.otf");
 }
 @font-face {
   font-family: "Changa One";
-  src: url("./fonts/ChangaOne-Regular.ttf");
+  src: url("../fonts/ChangaOne-Regular.ttf");
 }
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.cropped {
-  max-width: 1366px;
-  width: 90%;
-  display: flex;
-  justify-content: center;
-}
-
-.active {
-  color: #8A53FF !important;
-}
-
 .head {
   padding: 13px 0;
   display: flex;
@@ -70,4 +53,21 @@
 }
 .head .header__menu-icons img {
   cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cropped {
+  max-width: 1366px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.active {
+  color: #8A53FF !important;
 }

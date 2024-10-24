@@ -1,35 +1,4 @@
-@font-face {
-  font-family: "Black Signature";
-  src: url("./fonts/BlackSignaturePersonalUseOnlyRegular.otf");
-}
-
-@font-face {
-  font-family: "Changa One";
-  src: url("./fonts/ChangaOne-Regular.ttf");
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
 $navgap: 18px;
-$accent-color: #8A53FF;
-
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.cropped {
-  max-width: 1366px;
-  width: 90%;
-  display: flex;
-  justify-content: center;
-}
-
-.active {
-  color: $accent-color !important;
-}
 
 .head {
   padding: 13px 0;
