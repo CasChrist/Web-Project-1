@@ -187,12 +187,14 @@
   font-size: 16px;
   line-height: 19px;
   color: #8A53FF;
+  cursor: pointer;
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  cursor: default;
 }
 
 .cropped {
@@ -266,6 +268,7 @@ button.primary {
 }
 .cta span a {
   text-decoration: none;
+  cursor: pointer;
   color: #434343;
 }
 .cta img {

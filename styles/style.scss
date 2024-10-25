@@ -21,6 +21,7 @@ $accent-color: #8A53FF;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  cursor: default;
 }
 
 .cropped {
@@ -95,6 +96,7 @@ button.primary {
 
     a {
       text-decoration: none;
+      cursor: pointer;
       color: $primary-color;
     }
   }
