@@ -135,6 +135,60 @@
   color: #434343;
 }
 
+.discover {
+  padding: 24px 0 70px 0;
+  max-width: 1160px;
+  margin: 0 auto;
+  font-family: "Roboto";
+}
+.discover__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 48px;
+}
+.discover__location {
+  display: flex;
+  width: 100%;
+}
+.discover__location-bundle {
+  display: flex;
+  flex-direction: row;
+}
+.discover__location-bundle-card {
+  flex: 1;
+  max-width: 300px;
+  min-width: 200px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+.discover__location-bundle-card-img img {
+  width: 100%;
+  height: auto;
+}
+.discover__location-bundle-card-texts {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.discover__location-bundle-card-texts .place {
+  font-weight: 400;
+  font-family: "Changa One";
+  font-size: 24px;
+  line-height: 36px;
+}
+.discover__location-bundle-card-texts .btn-discover {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8A53FF;
+}
+
 * {
   padding: 0;
   margin: 0;
