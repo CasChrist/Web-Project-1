@@ -1,0 +1,56 @@
+$navgap: 18px;
+$primary-color: #495367;
+
+.header {
+  padding: 13px 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+
+  &__logo {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      font-family: "Black Signature";
+    }
+
+    span {
+      font-family: "Changa One";
+      font-size: 24px;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    gap: $navgap;
+    padding: 10px 0;
+
+    &-links {
+      display: flex;
+      justify-content: flex-end;
+      gap: $navgap;
+      align-items: center;
+      position: relative;
+
+      a {
+        cursor: pointer;
+        font-family: "Roboto";
+        text-decoration: none;
+        color: $primary-color;
+      }
+    }
+
+    &-icons {
+      display: flex;
+      align-items: center;
+      gap: $navgap;
+
+      img {
+        cursor: pointer;
+      }
+    }
+  }
+}

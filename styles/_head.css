@@ -1,0 +1,45 @@
+.header {
+  padding: 13px 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  display: flex;
+  flex-direction: column;
+}
+.header__logo p {
+  font-family: "Black Signature";
+}
+.header__logo span {
+  font-family: "Changa One";
+  font-size: 24px;
+}
+.header__menu {
+  display: flex;
+  gap: 18px;
+  padding: 10px 0;
+}
+.header__menu-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 18px;
+  align-items: center;
+  position: relative;
+}
+.header__menu-links a {
+  cursor: pointer;
+  font-family: "Roboto";
+  text-decoration: none;
+  color: #495367;
+}
+.header__menu-icons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.header__menu-icons img {
+  cursor: pointer;
+}
