@@ -1,4 +1,5 @@
 $navgap: 18px;
+$primary-color: #495367;
 
 .head {
   padding: 13px 0;
@@ -40,7 +41,7 @@ $navgap: 18px;
           cursor: pointer;
           font-family: "Roboto";
           text-decoration: none;
-          color: #495367;
+          color: $primary-color;
         }
       }
 
