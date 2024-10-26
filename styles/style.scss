@@ -67,8 +67,17 @@ button.primary {
 }
 
 .section-description {
-  font-size: 18px;
-  line-height: 33px;
+
+  &__regular {
+    font-size: 18px;
+    line-height: 33px;
+  }
+
+  &__small {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
 }
 
 .place {
