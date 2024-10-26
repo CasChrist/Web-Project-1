@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+  font-family: "Roboto";
+  font-size: 14px;
+  padding: 32px 120px;
+  color: #939EB4;
+}
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 280px;
+  width: 100%;
+}
+.footer__links a {
+  text-decoration: none;
+  cursor: pointer;
+}
