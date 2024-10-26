@@ -1,47 +1,45 @@
-.head {
+.header {
   padding: 13px 0;
   display: flex;
   width: 100%;
   justify-content: center;
-}
-.head .header {
   display: flex;
   justify-content: space-between;
 }
-.head .header__logo {
+.header__logo {
   display: flex;
   flex-direction: column;
 }
-.head .header__logo p {
+.header__logo p {
   font-family: "Black Signature";
 }
-.head .header__logo span {
+.header__logo span {
   font-family: "Changa One";
   font-size: 24px;
 }
-.head .header__menu {
+.header__menu {
   display: flex;
   gap: 18px;
   padding: 10px 0;
 }
-.head .header__menu-links {
+.header__menu-links {
   display: flex;
   justify-content: flex-end;
   gap: 18px;
   align-items: center;
   position: relative;
 }
-.head .header__menu-links a {
+.header__menu-links a {
   cursor: pointer;
   font-family: "Roboto";
   text-decoration: none;
   color: #495367;
 }
-.head .header__menu-icons {
+.header__menu-icons {
   display: flex;
   align-items: center;
   gap: 18px;
 }
-.head .header__menu-icons img {
+.header__menu-icons img {
   cursor: pointer;
 }

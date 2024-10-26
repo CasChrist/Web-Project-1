@@ -1,58 +1,55 @@
 $navgap: 18px;
 $primary-color: #495367;
 
-.head {
+.header {
   padding: 13px 0;
   display: flex;
   width: 100%;
   justify-content: center;
+  display: flex;
+  justify-content: space-between;
 
-  .header {
+  &__logo {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 
-    &__logo {
+    p {
+      font-family: "Black Signature";
+    }
+
+    span {
+      font-family: "Changa One";
+      font-size: 24px;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    gap: $navgap;
+    padding: 10px 0;
+
+    &-links {
       display: flex;
-      flex-direction: column;
+      justify-content: flex-end;
+      gap: $navgap;
+      align-items: center;
+      position: relative;
 
-      p {
-        font-family: "Black Signature";
-      }
-
-      span {
-        font-family: "Changa One";
-        font-size: 24px;
+      a {
+        cursor: pointer;
+        font-family: "Roboto";
+        text-decoration: none;
+        color: $primary-color;
       }
     }
 
-    &__menu {
+    &-icons {
       display: flex;
+      align-items: center;
       gap: $navgap;
-      padding: 10px 0;
 
-      &-links {
-        display: flex;
-        justify-content: flex-end;
-        gap: $navgap;
-        align-items: center;
-        position: relative;
-
-        a {
-          cursor: pointer;
-          font-family: "Roboto";
-          text-decoration: none;
-          color: $primary-color;
-        }
-      }
-
-      &-icons {
-        display: flex;
-        align-items: center;
-        gap: $navgap;
-
-        img {
-          cursor: pointer;
-        }
+      img {
+        cursor: pointer;
       }
     }
   }

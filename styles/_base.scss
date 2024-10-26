@@ -87,24 +87,26 @@ button.primary {
     cursor: pointer;
   }
 
-  span {
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 36px;
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
     cursor: pointer;
-    padding-left: 12px;
+    color: $primary-color;
 
-    a {
-      text-decoration: none;
+    img {
+      width: 36px;
+      height: 36px;
       cursor: pointer;
-      color: $primary-color;
     }
-  }
 
-  img {
-    width: 36px;
-    height: 36px;
-    cursor: pointer;
+    span {
+      font-family: "Roboto";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 36px;
+      cursor: pointer;
+      padding-left: 12px;
+    }
   }
 }

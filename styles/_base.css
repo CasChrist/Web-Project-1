@@ -78,21 +78,23 @@ button.primary {
   margin-right: 2rem;
   cursor: pointer;
 }
-.cta span {
+.cta a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: #495367;
+}
+.cta a img {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+.cta a span {
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
   line-height: 36px;
   cursor: pointer;
   padding-left: 12px;
-}
-.cta span a {
-  text-decoration: none;
-  cursor: pointer;
-  color: #495367;
-}
-.cta img {
-  width: 36px;
-  height: 36px;
-  cursor: pointer;
 }
