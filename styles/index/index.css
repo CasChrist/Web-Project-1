@@ -30,17 +30,17 @@
 }
 
 .active {
-  color: #8A53FF !important;
+  color: #8a53ff !important;
 }
 
 button.primary {
-  background-color: #8A53FF;
+  background-color: #8a53ff;
   color: #fff;
 }
 
 .section-subtitle {
   font-size: 18px;
-  color: #8A53FF;
+  color: #8a53ff;
   text-transform: uppercase;
   line-height: 21px;
   letter-spacing: 0.06em;
@@ -164,7 +164,7 @@ button.primary {
   font-family: "Roboto";
   font-size: 14px;
   padding: 32px 120px;
-  color: #939EB4;
+  color: #939eb4;
 }
 .footer__links {
   display: flex;
@@ -195,7 +195,11 @@ button.primary {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, #FFFFFF -0.92%, rgba(255, 255, 255, 0) 75.6%);
+  background: linear-gradient(
+    90deg,
+    #ffffff -0.92%,
+    rgba(255, 255, 255, 0) 75.6%
+  );
   pointer-events: none;
 }
 .hero__content {
@@ -213,7 +217,7 @@ button.primary {
 .hero__content-texts span {
   font-family: "Changa One";
   font-size: 73px;
-  color: #8A53FF;
+  color: #8a53ff;
   line-height: 84px;
 }
 .hero__content-texts h1 > p {
@@ -303,7 +307,7 @@ button.primary {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: #8A53FF;
+  color: #8a53ff;
   cursor: pointer;
 }
 
@@ -378,7 +382,7 @@ button.primary {
 .share .share-container__content-fields .input select:focus,
 .share .share-container__content-fields .select input:focus,
 .share .share-container__content-fields .select select:focus {
-  border-color: #8A53FF;
+  border-color: #8a53ff;
   outline: none;
 }
 .share .share-container__content-fields .input select,
@@ -410,7 +414,7 @@ button.primary {
 }
 .share .share-container__content-fields .input textarea:focus,
 .share .share-container__content-fields .select textarea:focus {
-  border-color: #8A53FF;
+  border-color: #8a53ff;
   outline: none;
 }
 .share .share-container__content-fields .input {
@@ -432,7 +436,7 @@ button.primary {
   cursor: pointer;
 }
 .share .share-container__content-fields button:focus {
-  border-color: #8A53FF;
+  border-color: #8a53ff;
   outline: none;
 }
 
