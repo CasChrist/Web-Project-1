@@ -17,6 +17,7 @@
 
 @import "./../story/article-hero";
 @import "./../story/callout";
+@import "./../story/highlights";
 
 $main-color: #434343;
 
@@ -36,5 +37,5 @@ $main-color: #434343;
 
 .conclusion {
   padding-top: 35px;
-  padding-bottom: 35px;
+  padding-bottom: 25px;
 }
