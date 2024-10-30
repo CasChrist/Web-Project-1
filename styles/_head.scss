@@ -12,14 +12,19 @@ $primary-color: #495367;
   &__logo {
     display: flex;
     flex-direction: column;
+    
+    a {
+      text-decoration: none;
+      cursor: pointer;
 
-    p {
-      font-family: "Black Signature";
-    }
+      p {
+        font-family: "Black Signature";
+      }
 
-    span {
-      font-family: "Changa One";
-      font-size: 24px;
+      span {
+        font-family: "Changa One";
+        font-size: 24px;
+      }
     }
   }
 

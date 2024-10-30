@@ -1,0 +1,81 @@
+.article-hero {
+  padding: 46px 0 35px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+
+    .section-title {
+      font-size: 50px;
+      letter-spacing: -0.03em;
+    }
+
+    &-author {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      &__img {
+        display: flex;
+        justify-content: center;
+      }
+
+      &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .nameID {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 18.75px;
+        }
+
+        .job {
+          font-family: Roboto;
+          font-size: 14px;
+          font-style: italic;
+          font-weight: 400;
+          line-height: 16px;
+          color: #A2A7B1;
+        }
+      }
+    }
+  }
+
+  &__video {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    background-image: url("./../../images/article_hero_image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 540px;
+    border-radius: 8px;
+
+    p {
+      font-family: "Black Signature";
+      font-weight: 400;
+      font-style: italic;
+      font-size: 70px;
+      color: #fff;
+      position: relative;
+      top: 30%;
+    }
+
+    img {
+      position: relative;
+      top: 23%;
+      width: 105px;
+      height: 105px;
+      cursor: pointer;
+    }
+  }
+}

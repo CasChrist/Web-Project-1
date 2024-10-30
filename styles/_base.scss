@@ -1,20 +1,13 @@
 $accent-color: #8A53FF;
-$primary-color: #495367;
+$primary-color: #434343;
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  cursor: default;
-}
-
-.cropped {
-  max-width: 1366px;
-  width: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+  // cursor: default;
+  font-family: "Roboto";
+  color: $primary-color;
 }
 
 .main-margin {
@@ -38,6 +31,7 @@ button.primary {
   text-transform: uppercase;
   line-height: 21px;
   letter-spacing: 0.06em;
+  font-weight: 700;
 }
 
 .section-title {
