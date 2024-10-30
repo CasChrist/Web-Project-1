@@ -514,3 +514,15 @@ button.primary {
   padding-top: 35px;
   padding-bottom: 25px;
 }
+
+.disclaimer {
+  max-width: 912px;
+  width: 85%;
+  margin: 0 auto 46px auto;
+  padding: 19px 29px;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+.disclaimer p.section-description__small:first-child {
+  font-weight: 700;
+}

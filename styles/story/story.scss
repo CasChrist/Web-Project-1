@@ -18,6 +18,7 @@
 @import "./../story/article-hero";
 @import "./../story/callout";
 @import "./../story/highlights";
+@import "./../story/disclaimer";
 
 $main-color: #434343;
 
@@ -38,4 +39,17 @@ $main-color: #434343;
 .conclusion {
   padding-top: 35px;
   padding-bottom: 25px;
+}
+
+.disclaimer {
+  max-width: 912px;
+  width: 85%;
+  margin: 0 auto 46px auto;
+  padding: 19px 29px;
+  border-radius: 4px;
+  background-color: #fafafa;
+
+  p.section-description__small:first-child {
+    font-weight: 700;
+  }
 }
