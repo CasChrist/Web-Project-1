@@ -370,6 +370,10 @@ button.primary {
   height: 105px;
 }
 
+.clincher {
+  padding-bottom: 35px;
+}
+
 .article-margin {
   max-width: 912px;
   width: 85%;
