@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Black Signature";
+  src: url("./../../fonts/BlackSignaturePersonalUseOnlyRegular.otf");
+}
+
+@font-face {
+  font-family: "Changa One";
+  src: url("./../../fonts/ChangaOne-Regular.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import "./../base";
+@import "./../head";
+@import "./../footer";

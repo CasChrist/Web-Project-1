@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: "Black Signature";
+  src: url("./../../fonts/BlackSignaturePersonalUseOnlyRegular.otf");
+}
+@font-face {
+  font-family: "Changa One";
+  src: url("./../../fonts/ChangaOne-Regular.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  cursor: default;
+}
+
+.cropped {
+  max-width: 1366px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.main-margin {
+  max-width: 1160px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.active {
+  color: #8A53FF !important;
+}
+
+button.primary {
+  background-color: #8A53FF;
+  color: #fff;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  color: #8A53FF;
+  text-transform: uppercase;
+  line-height: 21px;
+  letter-spacing: 0.06em;
+}
+
+.section-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Changa One";
+  font-size: 39px;
+  line-height: 36px;
+}
+
+.section-description__regular {
+  font-size: 18px;
+  line-height: 33px;
+}
+.section-description__small {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.place {
+  font-weight: 400;
+  font-family: "Changa One";
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+.cta button {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  border-radius: 4px;
+  border: none;
+  padding: 14px 20px;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.cta a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: #495367;
+}
+.cta a img {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+.cta a span {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  cursor: pointer;
+  padding-left: 12px;
+}
+
+.header {
+  padding: 13px 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  display: flex;
+  flex-direction: column;
+}
+.header__logo p {
+  font-family: "Black Signature";
+}
+.header__logo span {
+  font-family: "Changa One";
+  font-size: 24px;
+}
+.header__menu {
+  display: flex;
+  gap: 18px;
+  padding: 10px 0;
+}
+.header__menu-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 18px;
+  align-items: center;
+  position: relative;
+}
+.header__menu-links a {
+  cursor: pointer;
+  font-family: "Roboto";
+  text-decoration: none;
+  color: #495367;
+}
+.header__menu-icons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.header__menu-icons img {
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+  font-family: "Roboto";
+  font-size: 14px;
+  padding: 32px 120px;
+  color: #939EB4;
+}
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 280px;
+  width: 100%;
+}
+.footer__links a {
+  text-decoration: none;
+  cursor: pointer;
+}
