@@ -10,10 +10,14 @@
   display: flex;
   flex-direction: column;
 }
-.header__logo p {
+.header__logo a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.header__logo a p {
   font-family: "Black Signature";
 }
-.header__logo span {
+.header__logo a span {
   font-family: "Changa One";
   font-size: 24px;
 }

@@ -2,8 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  cursor: default;
   font-family: "Roboto";
+  color: #434343;
 }
 
 .main-margin {
@@ -76,7 +76,7 @@ button.primary {
   align-items: center;
   text-decoration: none;
   cursor: pointer;
-  color: #495367;
+  color: #434343;
 }
 .cta a img {
   width: 36px;

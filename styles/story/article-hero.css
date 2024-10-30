@@ -13,6 +13,7 @@
   letter-spacing: -0.03em;
 }
 .article-hero__header-author {
+  cursor: pointer;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -66,4 +67,5 @@
   top: 23%;
   width: 105px;
   height: 105px;
+  cursor: pointer;
 }

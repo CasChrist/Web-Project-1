@@ -1,12 +1,13 @@
 $accent-color: #8A53FF;
-$primary-color: #495367;
+$primary-color: #434343;
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  cursor: default;
+  // cursor: default;
   font-family: "Roboto";
+  color: $primary-color;
 }
 
 .main-margin {
