@@ -16,7 +16,6 @@
 @import "./../share";
 
 @import "./../story/article-hero";
-@import "./../story/clincher";
 @import "./../story/callout";
 
 $main-color: #434343;
@@ -29,4 +28,13 @@ $main-color: #434343;
   max-width: 912px;
   width: 85%;
   margin: 0 auto;
+}
+
+.clincher {
+  padding-bottom: 35px;
+}
+
+.conclusion {
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
