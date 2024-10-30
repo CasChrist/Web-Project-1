@@ -14,3 +14,11 @@
 @import "./../head";
 @import "./../footer";
 @import "./../share";
+
+@import "./../story/article-hero";
+
+.article-margin {
+  max-width: 912px;
+  width: 85%;
+  margin: 0 auto;
+}
