@@ -17,6 +17,13 @@
 
 @import "./../story/article-hero";
 @import "./../story/clincher";
+@import "./../story/callout";
+
+$main-color: #434343;
+
+* {
+  color: $main-color;
+}
 
 .article-margin {
   max-width: 912px;

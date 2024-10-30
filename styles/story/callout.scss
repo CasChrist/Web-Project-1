@@ -1,0 +1,100 @@
+.callout {
+  display: flex;
+
+  &-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    img {
+      border-radius: 8px;
+    }
+
+    &__left {
+      position: relative;
+      overflow: hidden;
+      width: 220px;
+      height: 480px;
+
+      img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 220px;
+        height: 480px;
+        object-fit: cover;
+      }
+    }
+
+    &__right {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      &-first {
+        position: relative;
+        overflow: hidden;
+        width: 220px;
+        height: 262px;
+
+        img {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 220px;
+          height: 262px;
+          object-fit: cover;
+        }
+      }
+
+      &-last {
+        position: relative;
+        overflow: hidden;
+        width: 220px;
+        height: 202px;
+
+        img {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 220px;
+          height: 202px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+  &-copywriting {
+    padding: 36px 0 36px 34px;
+    gap: 30px;
+
+    .section-title {
+      display: flex;
+      gap: 17px;
+
+      img {
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 50%;
+      }
+
+      p {
+        font-family: "Changa One";
+        font-style: oblique;
+        font-size: 42px;
+        line-height: 47px;
+        letter-spacing: -1px;
+      }
+    }
+
+    .section-description__small {
+      padding: 20px 0 30px 0;
+    }
+  }
+}
